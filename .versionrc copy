@@ -1,0 +1,6 @@
+{  
+  "parserOpts": {
+    "headerPattern": "^(?:Merged PR \\d+: )?(\\w*)(?:\\((.*)\\))?!?: (.*)$",
+    "breakingHeaderPattern":"/^(?:Merged PR \\d+: )?(\\w*)(?:\\((.*)\\))?!: (.*)$"
+  }
+}

@@ -1,0 +1,15 @@
+module.exports = {
+  parserOpts: {
+    "headerPattern": "(?:\\(Merged PR \\d+: \\))?([a-zA-Z]+)(?:\\(([\\w$\\.\\-*\\s\\,]*)\\))?\\s?[\\:\\-](.*)",
+    "breakingHeaderPattern": "(?:\\(Merged PR \\d+: \\))?([a-zA-Z]+)(?:\\(([\\w$\\.\\-*\\s\\,]*)\\))?\\!\\s?[\\:\\-](.*)",
+    "headerCorrespondence": ["type", "scope", "subject"],
+    // headerPattern: "^(?:Merged PR \d+: )?(\w*)(?:\((.*)\))?!?: (.*)$",
+    // breakingHeaderPattern:"/^(?:Merged PR \d+: )?(\w*)(?:\((.*)\))?!: (.*)$",
+    // revertPattern: "^(?:Merged PR \d+: )?(?:Revert|revert:)\s\"?([\s\S]+?)\"?\s*This reverts commit (\w*)\.",
+  },
+  presetConfig: {
+    compareUrlFormat: 'https://dev.azure.com/aegon-nl/{{repository}}/branchCompare?baseVersion=GT{{previousTag}}&targetVersion=GT{{currentTag}}&_a=files',
+  },
+};
+
+console.error('KJHJKHJKHJKHJKHJKHJK')

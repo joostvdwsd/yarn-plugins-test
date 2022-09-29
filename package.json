@@ -1,6 +1,6 @@
 {
   "name": "yarn-plugins-test",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/joostvdwsd/yarn-plugins-test.git",
   "author": "Joost van der Waal <joost.vanderwaal@aegon.nl>",
@@ -10,6 +10,18 @@
     "packages"
   ],
   "devDependencies": {
+    "conventional-changelog": "^3.1.25",
+    "conventional-changelog-cli": "^2.2.2",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "conventional-recommended-bump": "^6.1.0",
     "standard-version": "^9.5.0"
+  },
+  "dependenciesMeta": {
+    "conventional-changelog@3.1.25": {
+      "unplugged": true
+    },
+    "conventional-changelog-cli@2.2.2": {
+      "unplugged": true
+    }
   }
 }

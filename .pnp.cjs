@@ -33,6 +33,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["conventional-changelog", "npm:3.1.25"],\
+            ["conventional-changelog-cli", "npm:2.2.2"],\
+            ["conventional-changelog-conventionalcommits", "npm:5.0.0"],\
+            ["conventional-recommended-bump", "npm:6.1.0"],\
             ["standard-version", "npm:9.5.0"]\
           ],\
           "linkType": "SOFT"\
@@ -304,7 +308,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["conventional-changelog", [\
         ["npm:3.1.25", {\
-          "packageLocation": "./.yarn/cache/conventional-changelog-npm-3.1.25-dfc69e696b-1ea1837812.zip/node_modules/conventional-changelog/",\
+          "packageLocation": "./.yarn/unplugged/conventional-changelog-npm-3.1.25-dfc69e696b/node_modules/conventional-changelog/",\
           "packageDependencies": [\
             ["conventional-changelog", "npm:3.1.25"],\
             ["conventional-changelog-angular", "npm:5.0.13"],\
@@ -343,6 +347,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["conventional-changelog-cli", [\
+        ["npm:2.2.2", {\
+          "packageLocation": "./.yarn/unplugged/conventional-changelog-cli-npm-2.2.2-3fd92a20e7/node_modules/conventional-changelog-cli/",\
+          "packageDependencies": [\
+            ["conventional-changelog-cli", "npm:2.2.2"],\
+            ["add-stream", "npm:1.0.0"],\
+            ["conventional-changelog", "npm:3.1.25"],\
+            ["lodash", "npm:4.17.21"],\
+            ["meow", "npm:8.1.2"],\
+            ["tempfile", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["conventional-changelog-codemirror", [\
         ["npm:2.0.8", {\
           "packageLocation": "./.yarn/cache/conventional-changelog-codemirror-npm-2.0.8-342d72f6a3-cf331db40c.zip/node_modules/conventional-changelog-codemirror/",\
@@ -367,6 +385,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/conventional-changelog-conventionalcommits-npm-4.6.3-8a4923dc62-7b8e8a21eb.zip/node_modules/conventional-changelog-conventionalcommits/",\
           "packageDependencies": [\
             ["conventional-changelog-conventionalcommits", "npm:4.6.3"],\
+            ["compare-func", "npm:2.0.0"],\
+            ["lodash", "npm:4.17.21"],\
+            ["q", "npm:1.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/conventional-changelog-conventionalcommits-npm-5.0.0-a270202fe8-b67d12e4e0.zip/node_modules/conventional-changelog-conventionalcommits/",\
+          "packageDependencies": [\
+            ["conventional-changelog-conventionalcommits", "npm:5.0.0"],\
             ["compare-func", "npm:2.0.0"],\
             ["lodash", "npm:4.17.21"],\
             ["q", "npm:1.5.1"]\
@@ -1679,6 +1707,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["temp-dir", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/temp-dir-npm-2.0.0-e8af180805-cc4f0404bf.zip/node_modules/temp-dir/",\
+          "packageDependencies": [\
+            ["temp-dir", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tempfile", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/tempfile-npm-3.0.0-fcac8b1ecd-ebf07b7e58.zip/node_modules/tempfile/",\
+          "packageDependencies": [\
+            ["tempfile", "npm:3.0.0"],\
+            ["temp-dir", "npm:2.0.0"],\
+            ["uuid", "npm:3.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["text-extensions", [\
         ["npm:1.9.0", {\
           "packageLocation": "./.yarn/cache/text-extensions-npm-1.9.0-87655d768f-56a9962c1b.zip/node_modules/text-extensions/",\
@@ -1775,6 +1823,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["uuid", [\
+        ["npm:3.4.0", {\
+          "packageLocation": "./.yarn/cache/uuid-npm-3.4.0-4fd8ef88ad-58de2feed6.zip/node_modules/uuid/",\
+          "packageDependencies": [\
+            ["uuid", "npm:3.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["validate-npm-package-license", [\
         ["npm:3.0.4", {\
           "packageLocation": "./.yarn/cache/validate-npm-package-license-npm-3.0.4-7af8adc7a8-35703ac889.zip/node_modules/validate-npm-package-license/",\
@@ -1864,6 +1921,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["yarn-plugins-test", "workspace:."],\
+            ["conventional-changelog", "npm:3.1.25"],\
+            ["conventional-changelog-cli", "npm:2.2.2"],\
+            ["conventional-changelog-conventionalcommits", "npm:5.0.0"],\
+            ["conventional-recommended-bump", "npm:6.1.0"],\
             ["standard-version", "npm:9.5.0"]\
           ],\
           "linkType": "SOFT"\

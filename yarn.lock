@@ -255,6 +255,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"conventional-changelog-cli@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "conventional-changelog-cli@npm:2.2.2"
+  dependencies:
+    add-stream: ^1.0.0
+    conventional-changelog: ^3.1.24
+    lodash: ^4.17.15
+    meow: ^8.0.0
+    tempfile: ^3.0.0
+  bin:
+    conventional-changelog: cli.js
+  checksum: 749562d3ebc48eaf8f37c79fa2c0502abb58ca52adda3a495058d995456f33e039d4f65555e95c7d88e313d2bf0afcef339c8b19a71ebe51bc8ee05340e9fffd
+  languageName: node
+  linkType: hard
+
 "conventional-changelog-codemirror@npm:^2.0.8":
   version: 2.0.8
   resolution: "conventional-changelog-codemirror@npm:2.0.8"
@@ -279,6 +294,17 @@ __metadata:
     lodash: ^4.17.15
     q: ^1.5.1
   checksum: 7b8e8a21ebb56f9aaa510e12917b7c609202072c3e71089e0a09630c37c2e8146cdb04364809839b0e3eb55f807fe84d03b2079500b37f6186d505848be5c562
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-conventionalcommits@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "conventional-changelog-conventionalcommits@npm:5.0.0"
+  dependencies:
+    compare-func: ^2.0.0
+    lodash: ^4.17.15
+    q: ^1.5.1
+  checksum: b67d12e4e0fdde5baa32c3d77af472de38646a18657b26f5543eecce041a318103092fbfcef247e2319a16957c9ac78c6ea78acc11a5db6acf74be79a28c561f
   languageName: node
   linkType: hard
 
@@ -376,7 +402,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog@npm:3.1.25":
+"conventional-changelog@npm:3.1.25, conventional-changelog@npm:^3.1.24, conventional-changelog@npm:^3.1.25":
   version: 3.1.25
   resolution: "conventional-changelog@npm:3.1.25"
   dependencies:
@@ -421,7 +447,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-recommended-bump@npm:6.1.0":
+"conventional-recommended-bump@npm:6.1.0, conventional-recommended-bump@npm:^6.1.0":
   version: 6.1.0
   resolution: "conventional-recommended-bump@npm:6.1.0"
   dependencies:
@@ -1506,6 +1532,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"temp-dir@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "temp-dir@npm:2.0.0"
+  checksum: cc4f0404bf8d6ae1a166e0e64f3f409b423f4d1274d8c02814a59a5529f07db6cd070a749664141b992b2c1af337fa9bb451a460a43bb9bcddc49f235d3115aa
+  languageName: node
+  linkType: hard
+
+"tempfile@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "tempfile@npm:3.0.0"
+  dependencies:
+    temp-dir: ^2.0.0
+    uuid: ^3.3.2
+  checksum: ebf07b7e580ab0a0673093d84007783f3d3bef9f82108e463c353974382296ba2d3309c8ac9574efba0dec8c99c27c5392f11b3de85d3f3a88a22850e9f782ef
+  languageName: node
+  linkType: hard
+
 "text-extensions@npm:^1.0.0":
   version: 1.9.0
   resolution: "text-extensions@npm:1.9.0"
@@ -1590,6 +1633,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"uuid@npm:^3.3.2":
+  version: 3.4.0
+  resolution: "uuid@npm:3.4.0"
+  bin:
+    uuid: ./bin/uuid
+  checksum: 58de2feed61c59060b40f8203c0e4ed7fd6f99d42534a499f1741218a1dd0c129f4aa1de797bcf822c8ea5da7e4137aa3673431a96dae729047f7aca7b27866f
+  languageName: node
+  linkType: hard
+
 "validate-npm-package-license@npm:^3.0.1":
   version: 3.0.4
   resolution: "validate-npm-package-license@npm:3.0.4"
@@ -1665,7 +1717,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yarn-plugins-test@workspace:."
   dependencies:
+    conventional-changelog: ^3.1.25
+    conventional-changelog-cli: ^2.2.2
+    conventional-changelog-conventionalcommits: ^5.0.0
+    conventional-recommended-bump: ^6.1.0
     standard-version: ^9.5.0
+  dependenciesMeta:
+    conventional-changelog-cli@2.2.2:
+      unplugged: true
+    conventional-changelog@3.1.25:
+      unplugged: true
   languageName: unknown
   linkType: soft
 
