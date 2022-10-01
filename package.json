@@ -5,23 +5,11 @@
   "repository": "https://github.com/joostvdwsd/yarn-plugins-test.git",
   "author": "Joost van der Waal <joost.vanderwaal@aegon.nl>",
   "license": "MIT",
-  "packageManager": "yarn@3.2.3",
+  "packageManager": "yarn@4.0.0-rc.22",
   "workspaces": [
     "packages"
   ],
   "devDependencies": {
-    "conventional-changelog": "^3.1.25",
-    "conventional-changelog-cli": "^2.2.2",
-    "conventional-changelog-conventionalcommits": "^5.0.0",
-    "conventional-recommended-bump": "^6.1.0",
-    "standard-version": "^9.5.0"
-  },
-  "dependenciesMeta": {
-    "conventional-changelog@3.1.25": {
-      "unplugged": true
-    },
-    "conventional-changelog-cli@2.2.2": {
-      "unplugged": true
-    }
+    "conventional-changelog-conventionalcommits": "^5.0.0"
   }
 }
