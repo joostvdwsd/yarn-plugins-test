@@ -7,7 +7,7 @@
   "license": "MIT",
   "packageManager": "yarn@4.0.0-rc.22",
   "workspaces": [
-    "packages"
+    "packages/*"
   ],
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^5.0.0"
