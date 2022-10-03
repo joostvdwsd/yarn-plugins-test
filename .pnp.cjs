@@ -12,11 +12,21 @@ const RAW_RUNTIME_STATE =
     {\
       "name": "yarn-plugins-test",\
       "reference": "workspace:."\
+    },\
+    {\
+      "name": "a",\
+      "reference": "workspace:packages/a"\
+    },\
+    {\
+      "name": "b",\
+      "reference": "workspace:packages/b"\
     }\
   ],\
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
+    ["a", ["workspace:packages/a"]],\
+    ["b", ["workspace:packages/b"]],\
     ["yarn-plugins-test", ["workspace:."]]\
   ],\
   "fallbackPool": [\
@@ -26,86 +36,33 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["conventional-changelog-conventionalcommits", "npm:5.0.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
     ]],\
-    ["array-ify", [\
-      ["npm:1.0.0", {\
-        "packageLocation": "../../.yarn/berry/cache/array-ify-npm-1.0.0-e09a371977-9.zip/node_modules/array-ify/",\
+    ["a", [\
+      ["workspace:packages/a", {\
+        "packageLocation": "./packages/a/",\
         "packageDependencies": [\
-          ["array-ify", "npm:1.0.0"]\
+          ["a", "workspace:packages/a"]\
         ],\
-        "linkType": "HARD"\
+        "linkType": "SOFT"\
       }]\
     ]],\
-    ["compare-func", [\
-      ["npm:2.0.0", {\
-        "packageLocation": "../../.yarn/berry/cache/compare-func-npm-2.0.0-9cd7852f23-9.zip/node_modules/compare-func/",\
+    ["b", [\
+      ["workspace:packages/b", {\
+        "packageLocation": "./packages/b/",\
         "packageDependencies": [\
-          ["compare-func", "npm:2.0.0"],\
-          ["array-ify", "npm:1.0.0"],\
-          ["dot-prop", "npm:5.3.0"]\
+          ["b", "workspace:packages/b"]\
         ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["conventional-changelog-conventionalcommits", [\
-      ["npm:5.0.0", {\
-        "packageLocation": "../../.yarn/berry/cache/conventional-changelog-conventionalcommits-npm-5.0.0-a270202fe8-9.zip/node_modules/conventional-changelog-conventionalcommits/",\
-        "packageDependencies": [\
-          ["conventional-changelog-conventionalcommits", "npm:5.0.0"],\
-          ["compare-func", "npm:2.0.0"],\
-          ["lodash", "npm:4.17.21"],\
-          ["q", "npm:1.5.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["dot-prop", [\
-      ["npm:5.3.0", {\
-        "packageLocation": "../../.yarn/berry/cache/dot-prop-npm-5.3.0-7bf6ee1eb8-9.zip/node_modules/dot-prop/",\
-        "packageDependencies": [\
-          ["dot-prop", "npm:5.3.0"],\
-          ["is-obj", "npm:2.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["is-obj", [\
-      ["npm:2.0.0", {\
-        "packageLocation": "../../.yarn/berry/cache/is-obj-npm-2.0.0-3d95e053f4-9.zip/node_modules/is-obj/",\
-        "packageDependencies": [\
-          ["is-obj", "npm:2.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["lodash", [\
-      ["npm:4.17.21", {\
-        "packageLocation": "../../.yarn/berry/cache/lodash-npm-4.17.21-6382451519-9.zip/node_modules/lodash/",\
-        "packageDependencies": [\
-          ["lodash", "npm:4.17.21"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["q", [\
-      ["npm:1.5.1", {\
-        "packageLocation": "../../.yarn/berry/cache/q-npm-1.5.1-a28b3cfeaf-9.zip/node_modules/q/",\
-        "packageDependencies": [\
-          ["q", "npm:1.5.1"]\
-        ],\
-        "linkType": "HARD"\
+        "linkType": "SOFT"\
       }]\
     ]],\
     ["yarn-plugins-test", [\
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["yarn-plugins-test", "workspace:."],\
-          ["conventional-changelog-conventionalcommits", "npm:5.0.0"]\
+          ["yarn-plugins-test", "workspace:."]\
         ],\
         "linkType": "SOFT"\
       }]\
