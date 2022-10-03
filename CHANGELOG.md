@@ -1,6 +1,20 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file
+
+## [2.0.0-unknown.0](unknown/joostvdwsd/yarn-plugins-test/compare/v1.0.0...v2.0.0-unknown.0) (2022-10-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* Breaking PR change
+
+### Features
+
+* Breaking PR change ([c0c487b](unknown/joostvdwsd/yarn-plugins-test/commit/c0c487bb2ceb138b24be99c3cc56d79b1586c261))
+* cleanup ([97cc4ba](unknown/joostvdwsd/yarn-plugins-test/commit/97cc4ba46c630a372ecd31954dd6fd8a1bd75bca))
+* test for feature ([dafadcb](unknown/joostvdwsd/yarn-plugins-test/commit/dafadcb08a911fcc206f24011782dd85e0138638))
+* testing with features ([a2cb0e2](unknown/joostvdwsd/yarn-plugins-test/commit/a2cb0e28531cc83709ac75a85001a7226db8d359))
 
 ## [1.1.0](https://github.com/joostvdwsd/yarn-plugins-test/compare/v1.0.0...v1.1.0) (2022-09-29)
 
