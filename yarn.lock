@@ -4,9 +4,9 @@
 __metadata:
   version: 7
 
-"a@workspace:packages/a":
+"@a/a@workspace:packages/a":
   version: 0.0.0-use.local
-  resolution: "a@workspace:packages/a"
+  resolution: "@a/a@workspace:packages/a"
   languageName: unknown
   linkType: soft
 

@@ -14,7 +14,7 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:."\
     },\
     {\
-      "name": "a",\
+      "name": "@a/a",\
       "reference": "workspace:packages/a"\
     },\
     {\
@@ -25,7 +25,7 @@ const RAW_RUNTIME_STATE =
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
-    ["a", ["workspace:packages/a"]],\
+    ["@a/a", ["workspace:packages/a"]],\
     ["b", ["workspace:packages/b"]],\
     ["yarn-plugins-test", ["workspace:."]]\
   ],\
@@ -40,11 +40,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "SOFT"\
       }]\
     ]],\
-    ["a", [\
+    ["@a/a", [\
       ["workspace:packages/a", {\
         "packageLocation": "./packages/a/",\
         "packageDependencies": [\
-          ["a", "workspace:packages/a"]\
+          ["@a/a", "workspace:packages/a"]\
         ],\
         "linkType": "SOFT"\
       }]\

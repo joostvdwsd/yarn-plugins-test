@@ -1,6 +1,6 @@
 {
   "name": "yarn-plugins-test",
-  "version": "0.0.0",
+  "version": "2.0.0-test-release.1",
   "main": "index.js",
   "repository": "https://github.com/joostvdwsd/yarn-plugins-test.git",
   "author": "Joost van der Waal <joost.vanderwaal@aegon.nl>",
@@ -8,5 +8,6 @@
   "packageManager": "yarn@4.0.0-rc.22",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "private": true
 }

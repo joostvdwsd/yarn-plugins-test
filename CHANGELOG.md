@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file
 
+## [2.0.0-test-release.1](unknown/joostvdwsd/yarn-plugins-test/compare/v2.0.0-test-release.0...v2.0.0-test-release.1) (2022-10-04)
+
+## [3.0.0-test-release.0](unknown/joostvdwsd/yarn-plugins-test/compare/v2.0.0-test-release.0...v3.0.0-test-release.0) (2022-10-04)
+
+## [2.0.1-test-release.0](unknown/joostvdwsd/yarn-plugins-test/compare/v2.0.0-test-release.0...v2.0.1-test-release.0) (2022-10-04)
+
 ## [2.0.0-test-release.0](unknown/joostvdwsd/yarn-plugins-test/compare/v1.0.0...v2.0.0-test-release.0) (2022-10-04)
 
 
